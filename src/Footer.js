@@ -13,7 +13,7 @@ export default function Footer() {
             color: "white",
             fontSize: "12px",
             marginTop: "10px",
-            width: "40%",
+            width: "60%",
           }}
         >
           Fastest Growing Medical Platform for Doctors.
@@ -32,9 +32,76 @@ export default function Footer() {
           <LinkedInIcon htmlColor="white" fontSize="small" />
         </div>
       </Grid>
-      <Grid lg={3}>
-        <div>REACH US</div>
-        <div>Please contact the below details for any other</div>
+      <Grid lg={3} sx={{ paddingTop: "5px", paddingBottom: "30px" }}>
+        <div
+          style={{
+            color: "white",
+            fontSize: "12px",
+            fontWeight: "bold",
+          }}
+        >
+          REACH US
+        </div>
+        <div
+          style={{
+            color: "white",
+            fontSize: "10px",
+            marginTop: "15px",
+            width: "65%",
+          }}
+        >
+          Please contact the below details for any other information
+        </div>
+        <div
+          style={{
+            color: "#60a3bc",
+            fontSize: "10px",
+            marginTop: "15px",
+            width: "65%",
+          }}
+        >
+          Email :
+        </div>
+        <div
+          style={{
+            color: "white",
+            fontSize: "10px",
+            marginTop: "2px",
+            // fontWeight: "bold",
+          }}
+        >
+          info@hidoc.co
+        </div>
+        <div
+          style={{
+            color: "#60a3bc",
+            fontSize: "10px",
+            marginTop: "15px",
+            width: "65%",
+          }}
+        >
+          Address :
+        </div>
+        <div
+          style={{
+            color: "white",
+            fontSize: "10px",
+            marginTop: "2px",
+            // fontWeight: "bold",
+          }}
+        >
+          Hidoc Dr. Inc, 2055 Limestone Rd, STE 200-C
+        </div>
+        <div
+          style={{
+            color: "white",
+            fontSize: "10px",
+            marginTop: "2px",
+            // fontWeight: "bold",
+          }}
+        >
+          Wilmington, DE, 19808, United States
+        </div>
       </Grid>
     </Grid>
   );
