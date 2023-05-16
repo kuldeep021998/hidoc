@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { Grid } from "@mui/material";
 import { getData, postData } from "./Services";
+import { useParams } from "react-router-dom";
 
 export default function H1() {
+  const params = useParams();
   const [drug, setDrug] = useState([]);
   const [drgData, setDrgData] = useState([]);
 
